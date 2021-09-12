@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title> Site do Mau</title>
+    <link rel="stylesheet" type="text/css" href="StyleGlobal.css">
+    <link rel="stylesheet" type="text/css" href="StyleDieta.css">
+    <link rel="stylesheet" type="text/css" href="StyleFotografia.css">
+</head>
+
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header>
+        <h2>Tudo sobre o Maurício</h2>
+        <p> e coisas aleatórias</p>
+        <nav id="menuItens">
+            <ul>
+                <li><a href="#musculação">Musculação</a></li>
+                <li><a href="#dieta">Dieta</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#fotografia">Fotografia</a></li>
+                <li><a href="#programação">Programação</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="fotografia">
+        <h3>Fotografia</h3>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img01.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img02.jpg">
+            </div>
+            <div class="content">
+                <h3>Role no Cane <br> Alexandre</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img03.jpg">
+            </div>
+            <div class="content">
+                <h3>Role no Cane <br> Narrato</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img04.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img05.jpg">
+            </div>
+            <div class="content">
+                <h3>Role no Cane <br> Pitiças e Narrato</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img06.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img07.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img08.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img09.jpg">
+            </div>
+            <div class="content">
+                <h3>Natal</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img10.jpg">
+            </div>
+            <div class="content">
+                <h3>Espaço</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img11.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img12.jpg">
+            </div>
+            <div class="content">
+                <h3>Argentina</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="/fotos/img13.jpg">
+            </div>
+            <div class="content">
+                <h3>Natal</h3>
+            </div>
+        </div>
+    </section>
+    <section id="dieta">
+        <h3>
+            Macronutrientes
+        </h3>
+
+</body>
+<script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function() {
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+</script>
+
+</html>
