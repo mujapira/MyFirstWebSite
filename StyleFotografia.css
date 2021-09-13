@@ -43,6 +43,7 @@
     bottom: -2px;
     background: #fff;
     z-index: -1;
+    background: linear-gradient(235deg, #772aff, #010615, #ff3f81);
 }
 
 .box::after {
@@ -55,12 +56,9 @@
     background: #fff;
     z-index: -1;
     filter: blur(60px);
-}
-
-.box:before,
-.box::after {
     background: linear-gradient(235deg, #772aff, #010615, #ff3f81);
 }
+
 
 .box .content {
     position: absolute;
