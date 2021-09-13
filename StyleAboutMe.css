@@ -76,9 +76,15 @@
 }
 .container .cards .contentcard .detailscard h2 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
 }
+.container .cards .contentcard .detailscard h2 span {
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
 .social_icons {
     position: relative;
     display: flex;
