@@ -1,0 +1,16 @@
+
+.container {
+    position: relative;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.container .cards {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(#ff3f81, #ff3f81 30%, #772aff, #772aff 30%);
+    margin: 10px;
+}

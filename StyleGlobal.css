@@ -7,16 +7,17 @@
 }
 
 header {
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 100px;
+    padding: 1px 100px;
     z-index: 10;
     background: #000;
+    
 }
 
 header h2 {
@@ -112,7 +113,7 @@ body {
 
     padding: 6px 15px;
     text-decoration: none;
-    background: #2196f3;
+    background: #ff3f81;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -128,7 +129,7 @@ body {
 #menuitens ul li a:hover {
     transform: scale(1.4);
     z-index: 1000;
-    background: #ff3f81;
+    background: #772aff;
     opacity: 1;
 }
 

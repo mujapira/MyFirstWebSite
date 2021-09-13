@@ -26,7 +26,7 @@
 
 .box .imgBx img {
     max-width: 100%;
-    opacity: 0.3;
+    opacity: 0.05;
     transition: 0.5s;
 }
 
@@ -54,22 +54,12 @@
     bottom: -2px;
     background: #fff;
     z-index: -1;
-    filter: blur(40px);
+    filter: blur(60px);
 }
 
 .box:before,
 .box::after {
-    background: linear-gradient(235deg, #89ff00, #010515, #00bcd4);
-}
-
-.box:nth-child(2):before,
-.box:nth-child(2):after {
-    background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
-}
-
-.box:nth-child(3):before,
-.box:nth-child(3):after {
-    background: linear-gradient(235deg, #772aff, #010615, #2196f3);
+    background: linear-gradient(235deg, #772aff, #010615, #ff3f81);
 }
 
 .box .content {
