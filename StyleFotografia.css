@@ -10,7 +10,7 @@
     transition: 0.5s;
 }
 
-.box:hover {
+.box.active {
     height: 370px;
 }
 
@@ -30,7 +30,7 @@
     transition: 0.5s;
 }
 
-.box:hover .imgBx img {
+.box.active .imgBx img {
     opacity: 1;
 }
 
@@ -74,7 +74,7 @@
     transition: 0.5s;
 }
 
-.box:hover .content {
+.box.active .content {
     opacity: 0.8;
 }
 

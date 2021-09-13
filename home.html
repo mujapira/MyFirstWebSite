@@ -164,6 +164,14 @@
         let progressHeight = (window.pageYOffset / totalHeight) * 100;
         progress.style.height = progressHeight + "%";
     }
+
+    const fotos = document.querySelectorAll(".box");
+    fotos.forEach(foto => {
+        foto.addEventListener("mouseover", function() {
+            foto.classList.add("active");
+        })
+    });
+
 </script>
 
 </html>
