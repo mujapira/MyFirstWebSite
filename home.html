@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -146,28 +147,32 @@
                     <div class="detailscard">
                         <h2>Maurício <br></b><span>Futuro Web Developer</span></h2>
                         <ul class="social_icons">
-                            <li><a href="https://www.instagram.com/maauricio_mp/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://steamcommunity.com/profiles/76561198062540433/"target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
-                            <li><a href="https://twitter.com/Mauricium_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="https://wa.me/5511973202219" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/maauricio_mp/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://steamcommunity.com/profiles/76561198062540433/" target="_blank"><i
+                                        class="fa fa-steam" aria-hidden="true"></i></a></li>
+                            <li><a href="https://wa.me/5511973202219" target="_blank"><i class="fa fa-whatsapp"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="https://codestats.net/users/Malmas" target="_blank"><i class="fas fa-code"></i></a></li>
+                            <li><a href="https://www.urionlinejudge.com.br/judge/en/profile/572893" target="_blank"><i class="fas fa-terminal"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        </div>
     </section>
 </body>
 <script type="text/javascript">
     let progress = document.getElementById('progressbar');
     let totalHeight = document.body.scrollHeight - window.innerHeight;
-    window.onscroll = function() {
+    window.onscroll = function () {
         let progressHeight = (window.pageYOffset / totalHeight) * 100;
         progress.style.height = progressHeight + "%";
     }
 
     const fotos = document.querySelectorAll(".box");
     fotos.forEach(foto => {
-        foto.addEventListener("mouseover", function() {
+        foto.addEventListener("mouseover", function () {
             foto.classList.add("active");
         })
     });
