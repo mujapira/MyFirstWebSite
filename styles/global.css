@@ -91,6 +91,8 @@ body {
     background: #0d0f1b;
     align-items: center;
     justify-content: center;
+    scrollbar-width: none;
+
 }
 
 #menuitens {
