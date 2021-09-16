@@ -18,6 +18,11 @@ body{
 }
 
 
+.fundo img{
+    height:190vh;
+    background-size: cover;
+}
+
 .surface{
     height: 140px;
     width: 500%;
