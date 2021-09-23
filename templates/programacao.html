@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="/styles/programacao.css">
     <script src="https://kit.fontawesome.com/475e944a02.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <img src="./fotos/50026.jpg">
     <header>
         <h2>Site do Mau</h2>
         <nav id="menuitens">
@@ -24,5 +24,65 @@
             </ul>
         </nav>
     </header>
+    <section id="bootcamp01">
+        <h3> Bootcamps </h3>
+        <div class="brasao">
+            <div class="imgbrasao">
+                <img src="/fotos/bootcampeduzz.png">
+            </div>
+    </section>
+    <section id="certificadosid">
+        <h3> Certificados </h3>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <div class="slide">
+                    <img src="/fotos/bootcamp.jpg">
+                </div>
+                <div class="slide first">
+                    <img src="/fotos/html.jpg">
+                </div>
+                <div class="slide">
+                    <img src="/fotos/logica.jpg">
+                </div>
+                <div class="slide">
+                    <img src="/fotos/scrum.jpg">
+                </div>
+                <div class="slide">
+                    <img src="/fotos/dio.jpg">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        let counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 5) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
 </body>
+
 </html>
