@@ -11,4 +11,4 @@ Projeto pessoal criado com o intuito de treinar e explorar HTML e CSS </p>
 <p><code>yarn start</code> para executar localmente em http://localhost:3000/</p>
 
 
-<p>Acesse o link para ver o projeto online! sitedomau.herokuapp.com/</p>
+<p>Acesse o link para ver o projeto online! http://wwww.sitedomau.herokuapp.com/</p>
